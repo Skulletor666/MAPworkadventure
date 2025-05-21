@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "vite preview --port $PORT --host",
     "build": "tsc && vite build",
     "prod": "vite preview",
     "upload": "npm run build && upload-wa-map",
